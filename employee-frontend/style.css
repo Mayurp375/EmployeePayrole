@@ -1,0 +1,14 @@
+h1{
+    text-align: center;
+}
+input{
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+    justify-content: center;
+    border: 0px solid green;
+}
+.headConainer{
+    display: flex;
+}

@@ -1,5 +1,6 @@
 package com.employeepayrole.service;
 
+import com.employeepayrole.dto.EmployeeDTO;
 import com.employeepayrole.entity.Employee;
 import com.employeepayrole.repository.EmployeeRepo;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,6 +14,9 @@ public class IEmpService implements EmpService{
 
     @Autowired
     EmployeeRepo empRepo;
+    @Autowired
+    EmployeeDTO employeeDTO;
+
     public Employee addData(Employee employee)
     {
          employee = Employee.builder().id(employee.getId())

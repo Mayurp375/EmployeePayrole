@@ -14,4 +14,5 @@ public interface EmpService {
     public List<Employee> getAll();
 
     public Optional<Employee> getById(int id);
+    public List<Employee> addDataList(Employee employee);
 }

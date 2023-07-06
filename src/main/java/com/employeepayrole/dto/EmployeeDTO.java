@@ -1,14 +1,15 @@
 package com.employeepayrole.dto;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
+import lombok.extern.slf4j.Slf4j;
 
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public
-class EmployeeDTO{
+@Builder
+@Slf4j
+public class EmployeeDTO {
+
 
     private String name;
     private long sallary;

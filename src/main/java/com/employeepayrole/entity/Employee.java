@@ -9,6 +9,7 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.antlr.v4.runtime.misc.NotNull;
 
 @Entity
 @Data
@@ -20,9 +21,13 @@ public class Employee {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     public int id;
+    @NotNull
     public String name;
+    @NotNull
     public String contact;
+    @NotNull
     public float age;
+    @NotNull
     public long sallary;
 
 

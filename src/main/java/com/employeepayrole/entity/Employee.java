@@ -1,10 +1,7 @@
 package com.employeepayrole.entity;
 
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 import jakarta.validation.constraints.Max;
 import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotNull;
@@ -26,9 +23,11 @@ public class Employee {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
+    @Column(name = "emp_id")
     public int id;
 
-   @NotNull(message = "pass valid name")
+    @NotNull(message = "pass valid name")
+    @Column(name = "name")
     public String name;
 
     @NotNull(message = "pass valid Contact")
@@ -45,5 +44,10 @@ public class Employee {
     public LocalDate startDate;
     public String note;
     public String profile;
+
+    @ElementCollection
+    @CollectionTable(name = "emp_dept",
+            joinColumns = @JoinColumn(name = "id"))
+    @Column(name = "dept")
     private List<String> department;
 }

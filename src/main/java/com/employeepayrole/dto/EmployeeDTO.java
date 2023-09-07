@@ -1,13 +1,12 @@
 package com.employeepayrole.dto;
 
-import com.employeepayrole.entity.Department;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import jakarta.validation.constraints.*;
-import lombok.*;
-import lombok.extern.slf4j.Slf4j;
-import org.springframework.context.annotation.Bean;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
-import java.time.LocalDate;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
@@ -19,7 +18,7 @@ public class EmployeeDTO {
             message = "Employee name Invalid")
     private String name;
 
-    @NotNull(message = "pass valid Contact")
+   @NotNull(message = "pass valid Contact")
     public long contact;
 
     @Min(value = 500,message = "Min vage should 500")
@@ -33,10 +32,10 @@ public class EmployeeDTO {
     @Max(60)
     public float age;
 
-    @JsonFormat(pattern = "dd mm yyyy")
+    @JsonFormat(shape=JsonFormat.Shape.STRING, pattern="dd-MM-yyyy")
     @NotNull(message = "start date should not empty")
     @PastOrPresent(message = "startdate should be past or today")
-    public Date startdate;
+    public Date startdate = new Date();
 
     @NotBlank(message = "note can note blank")
     public String note;
@@ -45,5 +44,5 @@ public class EmployeeDTO {
     public String profilpic;
 
     @NotNull(message = "department should not empty")
-    public List<Department> department;
+    public List<String> department = new ArrayList<>();
 }

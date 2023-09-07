@@ -16,7 +16,7 @@ public class EmployeeControler {
     @Autowired
     EmployeeService employeeService;
 
-
+//http://localhost:8080/save
     @GetMapping("/")
     public String hello() {
         return "hello mayur";
@@ -39,6 +39,11 @@ public class EmployeeControler {
 
     @GetMapping("/id/{id}")
     public ResponseEntity<Optional<MyEmployee>> getEmpById(@PathVariable("id") int id) {
+        System.out.println("find successfully");
+        return ResponseEntity.ok(employeeService.findById(id));
+    }
+    @GetMapping("/id")
+    public ResponseEntity<Optional<MyEmployee>> getEmpByIdParam(@RequestParam int id) {
         System.out.println("find successfully");
         return ResponseEntity.ok(employeeService.findById(id));
     }

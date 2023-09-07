@@ -5,16 +5,13 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@Entity
-public class Department {
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private int id;
-
-    private String name;
-
-
-    @OneToOne(mappedBy = "department", cascade = CascadeType.ALL)
-    private MyEmployee employee;
-
-}
+//@Entity
+//public class Department {
+//    @Id
+//    @GeneratedValue(strategy = GenerationType.AUTO)
+//    private int id;
+//
+//    private String name;
+//    private MyEmployee employee;
+//
+//}

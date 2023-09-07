@@ -10,7 +10,6 @@ public class EmployeePayroleApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(EmployeePayroleApplication.class, args);
-		log.info("Employee Pay Role app is started");
 	}
 
 }

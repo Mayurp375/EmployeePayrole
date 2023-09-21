@@ -1,0 +1,154 @@
+2023-07-11T17:07:37.335+05:30  WARN 9720 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'employeeControler': Unsatisfied dependency expressed through field 'empService': Error creating bean with name 'IEmpService': Unsatisfied dependency expressed through field 'employeeDTO': No qualifying bean of type 'com.employeepayrole.dto.EmployeeDTO' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-07-11T17:07:37.369+05:30 ERROR 9720 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field employeeDTO in com.employeepayrole.service.IEmpService required a bean of type 'com.employeepayrole.dto.EmployeeDTO' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.employeepayrole.dto.EmployeeDTO' in your configuration.
+
+2023-07-11T17:11:19.734+05:30  WARN 9668 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'employeeControler': Unsatisfied dependency expressed through field 'empService': Error creating bean with name 'IEmpService': Unsatisfied dependency expressed through field 'employeeDTO': No qualifying bean of type 'com.employeepayrole.dto.EmployeeDTO' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-07-11T17:11:19.768+05:30 ERROR 9668 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field employeeDTO in com.employeepayrole.service.IEmpService required a bean of type 'com.employeepayrole.dto.EmployeeDTO' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.employeepayrole.dto.EmployeeDTO' in your configuration.
+
+2023-07-11T17:11:29.297+05:30  WARN 320 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'employeeControler': Unsatisfied dependency expressed through field 'empService': Error creating bean with name 'IEmpService': Unsatisfied dependency expressed through field 'employeeDTO': No qualifying bean of type 'com.employeepayrole.dto.EmployeeDTO' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-07-11T17:11:29.324+05:30 ERROR 320 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field employeeDTO in com.employeepayrole.service.IEmpService required a bean of type 'com.employeepayrole.dto.EmployeeDTO' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.employeepayrole.dto.EmployeeDTO' in your configuration.
+
+2023-07-11T17:12:00.683+05:30  WARN 11512 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'employeeControler': Unsatisfied dependency expressed through field 'empService': Error creating bean with name 'IEmpService': Unsatisfied dependency expressed through field 'employeeDTO': No qualifying bean of type 'com.employeepayrole.dto.EmployeeDTO' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-07-11T17:12:00.714+05:30 ERROR 11512 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field employeeDTO in com.employeepayrole.service.IEmpService required a bean of type 'com.employeepayrole.dto.EmployeeDTO' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.employeepayrole.dto.EmployeeDTO' in your configuration.
+
+2023-07-11T17:12:25.708+05:30  WARN 11156 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'employeeControler': Unsatisfied dependency expressed through field 'empService': Error creating bean with name 'IEmpService': Unsatisfied dependency expressed through field 'employeeDTO': No qualifying bean of type 'com.employeepayrole.dto.EmployeeDTO' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-07-11T17:12:25.742+05:30 ERROR 11156 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field employeeDTO in com.employeepayrole.service.IEmpService required a bean of type 'com.employeepayrole.dto.EmployeeDTO' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.employeepayrole.dto.EmployeeDTO' in your configuration.
+
+2023-07-11T17:12:55.060+05:30  WARN 12368 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'employeeControler': Unsatisfied dependency expressed through field 'empService': Error creating bean with name 'IEmpService': Unsatisfied dependency expressed through field 'employeeDTO': No qualifying bean of type 'com.employeepayrole.dto.EmployeeDTO' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-07-11T17:12:55.095+05:30 ERROR 12368 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field employeeDTO in com.employeepayrole.service.IEmpService required a bean of type 'com.employeepayrole.dto.EmployeeDTO' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.employeepayrole.dto.EmployeeDTO' in your configuration.
+
+2023-07-11T17:15:04.744+05:30  WARN 10552 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'employeeControler': Unsatisfied dependency expressed through field 'empService': Error creating bean with name 'IEmpService': Unsatisfied dependency expressed through field 'employeeDTO': No qualifying bean of type 'com.employeepayrole.dto.EmployeeDTO' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-07-11T17:15:04.780+05:30 ERROR 10552 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field employeeDTO in com.employeepayrole.service.IEmpService required a bean of type 'com.employeepayrole.dto.EmployeeDTO' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.employeepayrole.dto.EmployeeDTO' in your configuration.
+
+2023-07-11T17:20:36.441+05:30  WARN 1824 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'employeeControler': Unsatisfied dependency expressed through field 'empService': Error creating bean with name 'empService': Unsatisfied dependency expressed through field 'employeeDTO': No qualifying bean of type 'com.employeepayrole.dto.EmployeeDTO' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-07-11T17:20:36.495+05:30 ERROR 1824 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field employeeDTO in com.employeepayrole.service.EmpService required a bean of type 'com.employeepayrole.dto.EmployeeDTO' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.employeepayrole.dto.EmployeeDTO' in your configuration.
+
+2023-07-11T17:22:34.292+05:30  WARN 12024 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-11T17:25:14.710+05:30  WARN 13748 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning

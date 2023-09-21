@@ -11,22 +11,24 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-public class EmployeeControler {
+public class EmployeeController {
 
     @Autowired
     EmployeeService employeeService;
 
-//http://localhost:8080/save
+
     @GetMapping("/")
     public String hello() {
         return "hello mayur";
     }
 
+    //http://localhost:8080/getall
     @GetMapping("/getall")
     public ResponseEntity<List<MyEmployee>> getall() {
         return ResponseEntity.ok(employeeService.getAll());
     }
 
+    //http://localhost:8080/save
     @PostMapping("/save")
     public ResponseEntity<MyEmployee> employee(@RequestBody EmployeeDTO employee) {//json
 
